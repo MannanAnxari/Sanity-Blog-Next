@@ -5,7 +5,6 @@ import React from 'react'
 export default function Header() {
     return (
         <header className='flex items-center justify-between space-x-2 font-bold py-5 px-10'>
-
             <div className='flex items-center space-x-2'>
                 <Link href='/'>
                     <Image
@@ -19,7 +18,7 @@ export default function Header() {
                 <h1>The Blox</h1>
             </div>
             <div>
-                <Link href={''} className='md:px-10 px-6 py-2 text-sm md:text-base bg-gray-900 text-[#E2815A] hover:scale-105 active:scale-95 hover:bg-gray-700 active:bg-gray-800 transition-all flex items-center rounded-full text-center'>
+                <Link href={'https://techy-blox.vercel.app/studio'} className='md:px-10 px-6 py-2 text-sm md:text-base bg-gray-900 text-[#E2815A] hover:scale-105 active:scale-95 hover:bg-gray-700 active:bg-gray-800 transition-all flex items-center rounded-full text-center'>
                     Sign up to the Blox
                 </Link>
             </div>

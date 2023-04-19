@@ -9,7 +9,7 @@ export default function Banner() {
                 </h1>
                 <h2 className="mt-5 md:mt-0 ps-1">
                     Welcome to&nbsp;
-                    <span className="underline decoration-2 decoration-[#f7ab0a]">
+                    <span className="underline decoration-2 decoration-[#E2815A]">
                         Every Developer!
                     </span>&nbsp;
                     favourite blog in Dev World!
